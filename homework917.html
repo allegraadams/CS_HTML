@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+<script type="text/javascript">
+
+function Celsius()
+
+{
+
+var f= document.getElementById("fVal").value;
+
+document.getElementById("cVal").value=(5/9)*(f-32);
+
+}
+
+function Fahrenheit()
+
+{
+
+var c= document.getElementById("cVal").value;
+
+document.getElementById("fVal").value=(9/5)*c+32;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<input type=text id="cVal" placeholder="Enter Temperature in Celsius"/>
+
+<input type=text id="fVal" placeholder="Enter Temperature in Fahrenheit"/>
+
+<button onclick="Fahrenheit()">CelciusToF</button>
+
+<button onclick="Celsius()">FahrenheitToC</button>
+
+</body>
+
+</html>

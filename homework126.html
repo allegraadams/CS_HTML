@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type = "text/javascript">
+
+function changeBGC(color)
+{
+document.bgColor = color;
+}
+
+function changeFontFamily(fontFam)
+{
+
+document.getElementById("para").style.fontFamily = fontFam;
+
+}
+
+</script>
+<meta charset = "utf-8">
+<title>Webpage</title>
+</head>
+<body>
+<a href="#" onClick="javascript:changeBGC('blue')">Click Blue</a>
+<a href="#" onClick="javascript:changeBGC('red')">Click Red</a>
+<a href="#" onClick="javascript:changeBGC('green')">Click Green</a>
+<br>
+<a href="#" onClick="javascript:changeFontFamily('Arial, sans-serif')"> Make it SansSerif!!!</a>
+<a href="#" onClick="changeFontFamily('serif')"> Make it Serif!!!</a>
+<p id='para'> Sample Text
+<br>
+</body>
+</html>
